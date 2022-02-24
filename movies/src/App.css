@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.MovieList {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#input-search {
+  border: 5px solid green;
+  padding: 5px;
+  margin: 20px;
+  border-color: #0d6efd;
+  border-radius: 0.25rem;
+}
+
+#reset-button {
+  width: 70px;
+  height: 40px;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 0.25rem;
+}
+
+#buttonAdd {
+  margin: 20px;
+  height: 40px;
+  border-radius: 0.25rem;
+}
+div.card {
+  border-color: #0d6efd;
+  border-radius: 0.25rem;
+  text-align: justify;
+  display: table;
+  width: 100%;
+}
